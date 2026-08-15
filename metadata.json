@@ -1,0 +1,6 @@
+{
+  "name": "BrewVault - Premium Cold Brew Concentrate",
+  "description": "Ultra-minimalist showcase for BrewVault, precision-extracted cold brew concentrate crafted for busy urban professionals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
