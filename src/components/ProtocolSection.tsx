@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Mail, Droplet, Clock, Sparkles } from 'lucide-react';
 
 export const ProtocolSection: React.FC = () => {
   const [ratioMode, setRatioMode] = useState<'oat' | 'water' | 'neat'>('oat');

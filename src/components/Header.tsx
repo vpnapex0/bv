@@ -12,7 +12,7 @@ export const Header: React.FC = () => {
   }, []);
 
   const handleQuickCopy = () => {
-    navigator.clipboard.writeText('concierge@brewvault.com');
+    navigator.clipboard.writeText('buy@brewvault.bar');
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -52,11 +52,11 @@ export const Header: React.FC = () => {
             className="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-none text-[10px] font-mono-luxury tracking-[0.2em] uppercase opacity-60 hover:opacity-100 border border-white/10 hover:border-[#D4AF37]/50 transition-all"
           >
             {copied ? <Check className="w-3 h-3 text-[#D4AF37]" /> : <Copy className="w-3 h-3" />}
-            <span>{copied ? 'COPIED' : 'concierge@brewvault.com'}</span>
+            <span>{copied ? 'COPIED' : 'buy@brewvault.bar'}</span>
           </button>
 
           <a
-            href="mailto:concierge@brewvault.com?subject=BrewVault%20Allocation%20Request"
+            href="mailto:buy@brewvault.bar?subject=BrewVault%20Allocation%20Request"
             className="text-xs tracking-[0.2em] uppercase text-[#D4AF37] border-b border-[#D4AF37] pb-1 hover:text-white hover:border-white transition-all font-mono-luxury flex items-center gap-1.5"
           >
             <Mail className="w-3 h-3" />
