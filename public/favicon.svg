@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Dark background container with rounded edges -->
+  <rect width="64" height="64" rx="14" fill="#0A0A0A"/>
+  <rect x="1" y="1" width="62" height="62" rx="13" stroke="#D4AF37" stroke-width="1.5" stroke-opacity="0.3"/>
+  
+  <!-- Stylized geometric BV vault emblem -->
+  <!-- Outer precision diamond / flacon shield -->
+  <path d="M32 10 L48 24 L48 44 L32 54 L16 44 L16 24 Z" stroke="#D4AF37" stroke-width="2" stroke-linejoin="round" fill="#111111"/>
+  
+  <!-- Central 'V' vault concentrate droplet -->
+  <path d="M24 26 L32 42 L40 26" stroke="#D4AF37" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Top precision extraction node -->
+  <circle cx="32" cy="20" r="2" fill="#D4AF37"/>
+</svg>

@@ -7,7 +7,7 @@ interface ContactSectionProps {
 
 export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenModal }) => {
   const [copied, setCopied] = useState(false);
-  const email = 'concierge@brewvault.com';
+  const email = 'buy@brewvault.bar';
 
   const handleCopy = () => {
     navigator.clipboard.writeText(email);

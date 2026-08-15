@@ -70,10 +70,10 @@ export const Footer: React.FC = () => {
           </div>
 
           <a
-            href="mailto:concierge@brewvault.com"
+            href="mailto:buy@brewvault.bar"
             className="text-xs tracking-[0.2em] uppercase border-b border-white/20 pb-0.5 hover:border-[#D4AF37] hover:text-[#D4AF37] transition-all"
           >
-            concierge@brewvault.com
+            buy@brewvault.bar
           </a>
         </div>
 

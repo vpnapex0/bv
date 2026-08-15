@@ -51,7 +51,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreProtocol }) => {
         {/* Actions */}
         <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
           <a
-            href="mailto:concierge@brewvault.com?subject=Allocation%20Request%20-%20BrewVault&body=Hello%20BrewVault%2C%0A%0AI%20would%20like%20to%20request%20an%20allocation%20of%20BrewVault%20Concentrate.%0A%0AName%3A%20%0ALocation%3A%20"
+            href="mailto:buy@brewvault.bar?subject=Allocation%20Request%20-%20BrewVault&body=Hello%20BrewVault%2C%0A%0AI%20would%20like%20to%20request%20an%20allocation%20of%20BrewVault%20Concentrate.%0A%0AName%3A%20%0ALocation%3A%20"
             className="w-full sm:w-auto px-8 py-3 bg-[#D4AF37] text-black text-xs font-mono-luxury tracking-[0.2em] uppercase hover:bg-white transition-all duration-200 flex items-center justify-center gap-2 font-medium"
           >
             <Mail className="w-3.5 h-3.5" />
